@@ -36,3 +36,7 @@ footer {
 .btn {
   transition: background-color 300ms ease-out;
 }
+
+h4 {
+  line-height: 30px;
+}
