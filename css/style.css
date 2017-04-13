@@ -37,6 +37,7 @@ img:hover {
 
 .social-media a {
   color: #fff;
+  transition: color 300ms ease-out;
 }
 
 .social-media a:hover {
@@ -48,7 +49,7 @@ img:hover {
 }
 
 .jumbotron {
-  margin-bottom: 0 !important;
+  margin-bottom: 15px !important;
   background-color: #70B9B0;
   color: #fff;
 }
@@ -88,7 +89,15 @@ img:hover {
 }
 
 .label-primary:hover {
-  background-color: #017094;
+  background-color: #4584C3;
+}
+
+.label-warning:hover {
+  background-color: #ff9a65;
+}
+
+.label-danger:hover {
+  background-color: #FF635E;
 }
 
 .links {
