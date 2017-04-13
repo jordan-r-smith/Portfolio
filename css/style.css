@@ -1,6 +1,5 @@
 body {
-  background-color: #222;
-  color: #fff;
+  font-size: 18px;
 }
 
 footer {
@@ -8,8 +7,32 @@ footer {
     text-align: center;
 }
 
+h4 {
+  line-height: 30px;
+}
+
+img {
+  border: 2px solid #ddd;
+  transition: opacity 300ms ease-out;
+}
+
+img:hover {
+  opacity: 0.8;
+
+}
+
+.text-info {
+  color: #376760;
+  font-weight: 400;
+}
+
+.no-top-margin {
+  margin-top: 0;
+}
+
 .social-media {
-  margin-bottom: 50px;
+  margin: 10px 0 5px 0;
+  text-align: center;
 }
 
 .social-media a {
@@ -17,7 +40,7 @@ footer {
 }
 
 .social-media a:hover {
-  color: #008cba;
+  color: #376760;
 }
 
 .copyright {
@@ -26,7 +49,8 @@ footer {
 
 .jumbotron {
   margin-bottom: 0 !important;
-  background-color: #222;
+  background-color: #70B9B0;
+  color: #fff;
 }
 
 .page-header {
@@ -37,6 +61,36 @@ footer {
   transition: background-color 300ms ease-out;
 }
 
-h4 {
-  line-height: 30px;
+.btn-default {
+  background-color: #424242;
+}
+
+.btn-default:hover, .btn-default:active, .btn-default:focus {
+  background-color: #70b9b0 !important;
+}
+
+.project {
+  margin-bottom: 50px;
+}
+
+.align-right {
+  float: right;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+.label {
+  transition: background-color 300ms ease-out;
+}
+
+.label-primary:hover {
+  background-color: #017094;
+}
+
+.links {
+  margin-bottom: 15px;
 }
