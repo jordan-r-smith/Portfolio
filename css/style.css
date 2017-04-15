@@ -13,12 +13,12 @@ h4 {
 
 img {
   border: 2px solid #ddd;
-  transition: opacity 300ms ease-out;
+  transition: opacity 300ms ease-out, border 300ms ease-out;
 }
 
 img:hover {
   opacity: 0.8;
-
+  border: 2px solid #aaa;
 }
 
 .text-info {
@@ -63,11 +63,11 @@ img:hover {
 }
 
 .btn-default {
-  background-color: #424242;
+  background-color: #70b9b0;
 }
 
 .btn-default:hover, .btn-default:active, .btn-default:focus {
-  background-color: #70b9b0 !important;
+  background-color: #376760 !important;
 }
 
 .project {
@@ -102,4 +102,8 @@ img:hover {
 
 .links {
   margin-bottom: 15px;
+}
+
+.links a {
+  font-size: 16px !important;
 }
