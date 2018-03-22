@@ -107,3 +107,18 @@ img:hover {
 .links a {
   font-size: 16px !important;
 }
+
+#backToTop {
+    position: fixed;
+	bottom: 2rem;
+	right: 2rem;
+	cursor: pointer;
+	display: none;
+    color: #ffffff;
+    background: rgba(112, 185, 176, 0.3);
+    border-radius: 6px;
+}
+
+#backToTop:hover {
+    background: rgba(112, 185, 176, 1);
+}
